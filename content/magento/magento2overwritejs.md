@@ -1,12 +1,10 @@
-+++
+<!--
 Categories = ["Development", "GoLang"]
 Description = ""
 Tags = ["Development", "golang"]
 date = "2016-11-22T21:47:31-08:00"
-menu = "main"
 title = "Magento2 Overwrite Core module's javascript"
-
-+++
+-->
 
 ## Magento2 How to overwrite Core module's javascript
 

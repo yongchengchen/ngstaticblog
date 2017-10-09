@@ -2,7 +2,7 @@
 Categories = ["Development", "Angular"]
 Description = ""
 Tags = ["Development", "Angular"]
-date = "2016-10-26T21:47:31-08:00"
+date = "2017-09-26T21:47:31-08:00"
 title = "Angular 2/4 Global Variable Service"
 -->
 

@@ -2,7 +2,7 @@
 Categories = ["Development", "Angular"]
 title = "Angular 2/4 Async processor delegator component"
 Description = ""
-Tags = ["Development", "Angular"]
+Tags = ["Development", "Angular 2/4"]
 date = "2017-10-09T10:38:31+11:00"
 -->
 ## An Angular 2/4 Async processor delegator component

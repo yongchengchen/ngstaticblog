@@ -1,12 +1,11 @@
-+++
+<!--
 Categories = ["Development", "GoLang"]
 Description = ""
 Tags = ["Development", "golang"]
 date = "2017-11-16T10:47:31-08:00"
 menu = "main"
 title = "Nginx setting for A/B Testing container"
-
-+++
+-->
 
 ## Nginx setting for A/B Testing container
 

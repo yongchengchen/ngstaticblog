@@ -1,12 +1,11 @@
-+++
+<!-->
 Categories = ["Development", "GoLang"]
 Description = ""
 Tags = ["Development", "golang"]
 date = "2016-10-23T21:47:31-08:00"
 menu = "main"
 title = "Magento2 Debugbar"
-
-+++
+-->
 
 ## Magento2 Debugbar
 

@@ -1,8 +1,8 @@
 <!-- 
 Categories = ["Development", "Angular"]
 Description = ""
-Tags = ["Development", "Angular"]
-date = "2016-10-26T21:47:31-08:00"
+Tags = ["Development", "Angular 2/4"]
+date = "2017-09-26T21:47:31-08:00"
 title = "Angular 2/4 Communicate Between Components"
 -->
 
@@ -40,10 +40,10 @@ interface MQ_NODE {
 
 @Injectable()
 export class MQService {
-    protected nodes:MQ_NODE;
+    protected static nodes:MQ_NODE;
 
     constructor() {
-        this.nodes = {};
+        MQService.nodes = {};
     }
 
     notify(node: string, msg_body:MQ_MSG_BODY) {
@@ -55,22 +55,22 @@ export class MQService {
     }
  
     clear() {
-        for(let node in this.nodes) {
-            this.nodes[node].next();
+        for(let node in MQService.nodes) {
+            MQService.nodes[node].next();
         }
     }
 
     deleteNode(node:string):void {
-        if (this.nodes[node] != undefined) {
-            delete this.nodes[node];
+        if (MQService.nodes[node] != undefined) {
+            delete MQService.nodes[node];
         }
     }
 
     private getNode(node:string):Subject<MQ_MSG_BODY> {
-        if (this.nodes[node] === undefined) {
-            this.nodes[node] = new Subject<MQ_MSG_BODY>();
+        if (MQService.nodes[node] === undefined) {
+            MQService.nodes[node] = new Subject<MQ_MSG_BODY>();
         }
-        return this.nodes[node];
+        return MQService.nodes[node];
     }
 }
 ```

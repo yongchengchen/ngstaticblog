@@ -1,12 +1,10 @@
-+++
+<!--
 Categories = ["Development", "GoLang"]
 Description = ""
 Tags = ["Development", "Magento2"]
 date = "2016-12-21T21:47:31-08:00"
-menu = "main"
 title = "Magento2 Fulltext Indexer using swap table"
-
-+++
+-->
 
 ## Magento2 Fulltext Indexer using swap table
 
