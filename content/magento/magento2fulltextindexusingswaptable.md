@@ -1,5 +1,5 @@
 <!--
-Categories = ["Development", "GoLang"]
+Categories = ["Development", "Magento"]
 Description = ""
 Tags = ["Development", "Magento2"]
 date = "2016-12-21T21:47:31-08:00"

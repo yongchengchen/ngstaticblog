@@ -1,7 +1,7 @@
 <!--
-Categories = ["Development", "GoLang"]
+Categories = ["Development", "Magento"]
 Description = ""
-Tags = ["Development", "golang"]
+Tags = ["Development", "Magento"]
 date = "2017-07-18T21:47:31-08:00"
 title = "Magento2 MageStore Onestepcheckout bug when using braintree"
 -->

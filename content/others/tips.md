@@ -1,7 +1,7 @@
 <!--
-Categories = ["Development", "GoLang"]
+Categories = ["Development", "Others"]
 Description = ""
-Tags = ["Development", "golang"]
+Tags = ["Development", "Others"]
 date = "2016-10-23T21:47:31-08:00"
 title = "Development Tips"
 -->

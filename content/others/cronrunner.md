@@ -1,7 +1,7 @@
 <!--
-Categories = ["Development", "GoLang"]
+Categories = ["Development", "Others"]
 Description = ""
-Tags = ["Development", "golang"]
+Tags = ["Development", "shell"]
 date = "2017-11-16T10:47:31-08:00"
 menu = "main"
 title = "cron job runner"

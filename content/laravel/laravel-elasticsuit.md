@@ -1,5 +1,5 @@
 <!-->
-Categories = ["Development", "GoLang"]
+Categories = ["Development", "Laravel"]
 Description = "Laravel ElasticSuit"
 Tags = ["Development", "laravel", 'ElasticSuit', 'elasticsearch']
 date = "2016-12-20T21:47:31-08:00"

@@ -1,7 +1,7 @@
 <!--
-Categories = ["Development", "GoLang"]
+Categories = ["Development", "Magento"]
 Description = ""
-Tags = ["Development", "golang"]
+Tags = ["Development", "Magento"]
 date = "2016-11-22T21:47:31-08:00"
 title = "Magento2 Overwrite Core module's javascript"
 -->

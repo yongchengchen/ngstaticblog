@@ -1,7 +1,7 @@
 +++
-Categories = ["Development", "GoLang"]
+Categories = ["Development", "Magento"]
 Description = ""
-Tags = ["Development", "golang"]
+Tags = ["Development", "Magento"]
 date = "2016-10-26T21:47:31-08:00"
 menu = "main"
 title = "Magento2 knockoutjs work with angularjs"
