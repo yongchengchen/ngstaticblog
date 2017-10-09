@@ -4,7 +4,7 @@ Description = ""
 Tags = ["Development", "shell"]
 date = "2017-11-16T10:47:31-08:00"
 menu = "main"
-title = "cron job runner"
+title = "A wrapper for cron job log"
 -->
 
 ## A wrapper for cron job log
