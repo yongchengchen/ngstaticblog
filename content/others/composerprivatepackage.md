@@ -4,7 +4,6 @@ Description = "Some time your will not want your company's code goes to public p
 Here's an example for how to let composer use private packages, and put these packages to customize folder."
 Tags = ["Development", "Composer"]
 date = "2016-11-25T21:47:31-08:00"
-menu = "main"
 title = "Composer use private git packages"
 -->
 
