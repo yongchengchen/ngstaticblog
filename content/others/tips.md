@@ -6,7 +6,7 @@ date = "2016-10-23T21:47:31-08:00"
 title = "Development Tips"
 -->
 
-## useful tips
+# Some Useful Tips
 * grep get ip addr:
 ```shell
 grep -E -o "([0-9]{1,3}[\.]){3}[0-9]{1,3}"

@@ -6,7 +6,7 @@ date = "2016-11-22T21:47:31-08:00"
 title = "Magento2 Overwrite Core module's javascript"
 -->
 
-## Magento2 How to overwrite Core module's javascript
+# Magento2 How to overwrite Core module's javascript
 
 We purchased Magestore OneStepCheckout module for magento2 community edition. But for this module when we go to checkout page, update qty/remove item or just update shipping details, it will update payment methods.
 

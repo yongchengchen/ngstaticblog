@@ -6,7 +6,7 @@ date = "2016-12-20T21:47:31-08:00"
 title = "Laravel ElasticSuit"
 -->
 
-## Laravel ElasticSuit
+# Laravel ElasticSuit
 
 [![Total Downloads](https://poser.pugx.org/yong/elasticsuit/d/total.svg)](https://packagist.org/packages/yong/elasticsuit)
 [![Latest Stable Version](https://poser.pugx.org/yong/elasticsuit/v/stable.svg)](https://packagist.org/packages/yong/elasticsuit)

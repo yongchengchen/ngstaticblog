@@ -7,7 +7,7 @@ menu = "main"
 title = "Magento2 knockoutjs work with angularjs"
 -->
 
-## Magento2 Let angularjs work with knockout.js
+# Magento2 Let angularjs work with knockout.js
 
 * Why doing this?
 

@@ -2,11 +2,11 @@
 Categories = ["Development", "Magento"]
 Description = ""
 Tags = ["Development", "Magento"]
-date = "2015-12-12T21:47:31-08:00"
+date = "2016-12-12T21:47:31-08:00"
 title = "Magento2 Let Category Name support last character +"
 -->
 
-## Magento2 Let Category Name support last character +
+# Magento2 Let Category Name support last character +
 
 The website I just developed which has some categories name the last character is "+", and when we import product from CSV, it will automatically removed by Magento. 
 

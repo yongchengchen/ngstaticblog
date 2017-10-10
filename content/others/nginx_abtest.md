@@ -7,7 +7,7 @@ menu = "main"
 title = "Nginx setting for A/B Testing container"
 -->
 
-## Nginx setting for A/B Testing container
+# Nginx setting for A/B Testing container
 
 The solution is based on browser cookie "ab_test".
 

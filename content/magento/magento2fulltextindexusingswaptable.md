@@ -6,7 +6,7 @@ date = "2016-12-21T21:47:31-08:00"
 title = "Magento2 Fulltext Indexer using swap table"
 -->
 
-## Magento2 Fulltext Indexer using swap table
+# Magento2 Fulltext Indexer using swap table
 
 Indexing in Magento2 is much faster than Magento1, but for fulltext indexing, still have few seconds user can search nothing.
 

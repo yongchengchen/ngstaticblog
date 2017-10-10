@@ -8,7 +8,7 @@ menu = "main"
 title = "Composer use private git packages"
 -->
 
-## Composer use private git packages
+# Composer use private git packages
 
 * Why doing this?
 

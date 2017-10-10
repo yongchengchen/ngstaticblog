@@ -7,7 +7,7 @@ menu = "main"
 title = "Magento2 Debugbar"
 -->
 
-## Magento2 Debugbar
+# Magento2 Debugbar
 
 [![Total Downloads](https://poser.pugx.org/yong/magento2debugbar/d/total.svg)](https://packagist.org/packages/yong/magento2debugbar)
 [![Latest Stable Version](https://poser.pugx.org/yong/magento2debugbar/v/stable.svg)](https://packagist.org/packages/yong/magento2debugbar)

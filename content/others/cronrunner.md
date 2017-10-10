@@ -7,7 +7,7 @@ menu = "main"
 title = "A wrapper for cron job log"
 -->
 
-## A wrapper for cron job log
+# A wrapper for cron job log
 
 When we setup a cron job, we redirect log to a /tmp/path file. But sometimes the /tmp/path will be delete by system. 
 

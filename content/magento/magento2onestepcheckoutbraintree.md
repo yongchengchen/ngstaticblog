@@ -6,7 +6,7 @@ date = "2017-07-18T21:47:31-08:00"
 title = "Magento2 MageStore Onestepcheckout bug when using braintree"
 -->
 
-## Magento2 MageStore Onestepcheckout bug when using braintree
+# Magento2 MageStore Onestepcheckout bug when using braintree
 
 We purchased Magestore OneStepCheckout module for magento2 community edition. Recently we setuped braintree payment gateway.
 

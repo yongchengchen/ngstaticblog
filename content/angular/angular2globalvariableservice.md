@@ -6,7 +6,7 @@ date = "2017-09-26T21:47:31-08:00"
 title = "Angular 2/4 Global Variable Service"
 -->
 
-## Angular 2/4 Global Variable Service
+# Angular 2/4 Global Variable Service
 
 #### Why doing this?
 
