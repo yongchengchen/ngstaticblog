@@ -3,7 +3,6 @@ Categories = ["Magento"]
 Description = ""
 Tags = ["Development", "Magento"]
 date = "2016-10-23T21:47:31-08:00"
-menu = "main"
 title = "Magento2 Debugbar"
 -->
 
