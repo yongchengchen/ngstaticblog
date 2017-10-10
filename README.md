@@ -1,6 +1,9 @@
 <!--
-site_title = ""
-sub_title = ""
+name = "Zen Code Life"
+title = "Zen Code Life"
+description = "Yongcheng's Technical Blog"
+email = "yongcheng.chen@live.com"
+author = "Yongcheng Chen"
 -->
 # A Static Site using Angular4 + AWS S3 + Lambda + Github
 
@@ -61,11 +64,11 @@ README.md also support metadata extension. But keys are different.
 It stores site level configuration details.
 ```html
 <!--
-name = "Zen Code Life"
-title = "Zen Code Life"
-description = "Yongcheng's Technical Blog"
-email = "yongcheng.chen@live.com"
-author = "Yongcheng Chen"
+name = "Your website name"
+title = "Your website title"
+description = "Your website description"
+email = "put your email address here"
+author = "Put your name here"
 -->
 ```
 
