@@ -1,4 +1,4 @@
-<!-->
+<!--
 Categories = ["Magento"]
 Description = ""
 Tags = ["Development", "Magento"]
