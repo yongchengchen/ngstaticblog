@@ -4,6 +4,7 @@ title = "Zen Code Life"
 description = "Yongcheng's Technical Blog"
 email = "yongcheng.chen@live.com"
 author = "Yongcheng Chen"
+categories_sort = {"about":1, "laravel":2, "angular":3, "magento":4, 'others':5}
 -->
 # A Static Site using Angular4 + AWS S3 + Lambda + Github
 
@@ -32,6 +33,7 @@ So the normal repository directory structure should looks like:
        |-------README.md
        |
        |-------content
+                  |--------about.md
                   |--------category1
                   |            |--------file1.md
                   |            |--------file2.md
@@ -56,6 +58,7 @@ Here's an example for how to let composer use private packages, and put these pa
 Tags = ["Development", "Composer"]
 date = "2016-11-25T21:47:31-08:00"
 title = "Composer use private git packages"
+image = ""
 -->
 ```
 
