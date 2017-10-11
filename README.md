@@ -4,7 +4,7 @@ title = "Zen Code Life"
 description = "Yongcheng's Technical Blog"
 email = "yongcheng.chen@live.com"
 author = "Yongcheng Chen"
-categories_sort = {"about":1, "laravel":2, "angular":3, "magento":4, 'others':5}
+categories_sort = {"about":1, "laravel":2, "angular":3, "magento":4, "others":5}
 -->
 # A Static Site using Angular4 + AWS S3 + Lambda + Github
 
