@@ -18,7 +18,9 @@ It is my hope to share my technical notes.
 #### How to get in Touch with me
 
 Email: yongcheng.chen@live.com
+
 LinkedIn: https://www.linkedin.com/in/yongchengchen
+
 Github: https://github.com/yongchengchen
 
 
