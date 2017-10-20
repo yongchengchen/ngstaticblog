@@ -2,7 +2,7 @@
 Categories = ["Development", "Laravel"]
 Description = "Laravel ElasticSuit"
 Tags = ["Development", "laravel", "ElasticSuit", "elasticsearch"]
-date = "2016-12-20T21:47:31-08:00"
+date = "2017-10-20T21:47:31-08:00"
 title = "Laravel ElasticSuit"
 -->
 
@@ -19,19 +19,19 @@ It makes you do Elasticsearch just using Eloquent's API.
 
 ## Installation
 
-1. Require this package with composer:
+### 1. Require this package with composer:
 
 ```shell
 composer require yong/elasticsuit dev-master
 ```
 
-2. Add service provider to config/app.php
+### 2. Add service provider to config/app.php
 
 ```php
 Yong\ElasticSuit\Service\Provider;
 ```
 
-3. Add elasticsearch node configuration to the "connections" node of config/database.php
+### 3. Add elasticsearch node configuration to the "connections" node of config/database.php
 
 ```php
         'elasticsearch' => [
@@ -45,7 +45,7 @@ Yong\ElasticSuit\Service\Provider;
 
 ## Usage
 
-1. Define a model for a elasticsearch type
+### 1. Define a model for a elasticsearch type
 
 ```php
 
@@ -60,7 +60,7 @@ class TestModel extends \Yong\ElasticSuit\Elasticsearch\Model {
 }
 ```
 
-2. Create a new document
+### 2. Create a new document
 
 ```php
 
@@ -71,7 +71,7 @@ $testmodel->age = 20;
 $testmodel->save();
 ```
 
-3. Search a collection
+### 3. Search a collection
 
 ```php
 $collection = TestModel::where('first_name', 'like', 'firstname')
@@ -95,7 +95,7 @@ $collection = TestModel::where('first_name', 'like', 'firstname')
 
 ```
 
-4. Relations
+### 4. Relations
     It also support relations, but remember so far just support using default _id as primary key.
 
 ```php
