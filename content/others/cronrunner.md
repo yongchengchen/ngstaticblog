@@ -7,13 +7,13 @@ menu = "main"
 title = "A wrapper for cron job log"
 -->
 
-# A wrapper for cron job log
+## A wrapper for cron job log
 
 When we setup a cron job, we redirect log to a /tmp/path file. But sometimes the /tmp/path will be delete by system. 
 
 So I wrote a very simple script to make sure the directory will be created, and the file will be sync to s3 automaticlly.
  
-* 1. script
+### 1. script
 
 ```shell
 #!/bin/bash
@@ -39,7 +39,7 @@ S3Backup="aws s3 cp ${LOGPART} s3://urlpath/log${LOGPART} --profile logiam > /de
 eval $S3Backup
 ```
 
-* 2. use it
+### 2. how to use
 
 ```shell
 * * * * * cronrunner.sh "php yourfile.php params >> /tmp/log/log1/logs.txt"
