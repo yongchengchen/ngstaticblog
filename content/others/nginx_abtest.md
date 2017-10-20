@@ -2,26 +2,26 @@
 Categories = ["Development", "Others"]
 Description = ""
 Tags = ["Development", "Nginx"]
-date = "2017-11-16T10:47:31-08:00"
+date = "2016-11-16T10:47:31-08:00"
 menu = "main"
 title = "Nginx setting for A/B Testing container"
 -->
 
-# Nginx setting for A/B Testing container
+## Nginx setting for A/B Testing container
 
 The solution is based on browser cookie "ab_test".
 
 If user first time to access the website, we will randomly dispatch to the backend server, then we set cookie value with the server type(main/test), then for the next request, we will check the cookie value, and dispath it to the previous server.
 
 
-* 1. define constants
+### 1. define constants
 
 ```shell
 map $host $MAIN_SERVER { default 127.0.0.2; }
 map $host $TEST_SERVER { default 127.0.0.3; }
 ```
 
-* 2. retrive some variables such as client cookie
+### 2. retrive some variables such as client cookie
 
 ```shell
 map $http_user_agent $mobile_agent{
@@ -57,7 +57,7 @@ map $ABTEST_COOKIE_VALUE $cookie_expires {
 
 ```
 
-* 3. define proxy gateway
+### 3. define proxy gateway
 
 ```shell
 server {
@@ -105,7 +105,7 @@ server {
 }
 ```
 
-* 4. set main server 
+### 4. set main server 
 
 ```shell
 server {
@@ -133,7 +133,7 @@ server {
 }
 ```
 
-* 5. set test server
+### 5. set test server
 
 ```php
 server {
