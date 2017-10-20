@@ -2,7 +2,7 @@
 Categories = ["Development", "Others"]
 Description = ""
 Tags = ["Development", "shell"]
-date = "2017-11-16T10:47:31-08:00"
+date = "2016-11-16T10:47:31-08:00"
 menu = "main"
 title = "A wrapper for cron job log"
 -->
