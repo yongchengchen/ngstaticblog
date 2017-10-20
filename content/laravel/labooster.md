@@ -2,7 +2,7 @@
 Categories = ["Development", "Laravel"]
 Description = "Laravel Booster"
 Tags = ["Development", "laravel", "LaBooster"]
-date = "2016-11-20T21:47:31-08:00"
+date = "2017-10-20T21:47:31-08:00"
 title = "Laravel Booster"
 -->
 
