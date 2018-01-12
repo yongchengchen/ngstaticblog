@@ -1,10 +1,9 @@
-<!--
-name = "Zen Code Life"
-title = "Zen Code Life"
-description = "Yongcheng's Technical Blog"
-email = "yongcheng.chen@live.com"
-author = "Yongcheng Chen"
-categories_sort = {"about":1, "laravel":2, "angular":3, "magento":4, "others":5}
+<!-- 
+Categories = ["Development", "Angular", "AWS"]
+title = "A Static Site using Angular4 + AWS S3 + Lambda + Github"
+Description = "A Static Site using Angular4 + AWS S3 + Lambda + Github"
+Tags = ["Development", "Angular 2/4"]
+date = "2018-01-12T10:38:31+11:00"
 -->
 
 ## A Static Site using Angular4 + AWS S3 + Lambda + Github

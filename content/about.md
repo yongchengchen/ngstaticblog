@@ -32,4 +32,4 @@ Github: https://github.com/yongchengchen
 
 ### The website is engined by Angular Static S3 + Github 
 
-Please read this article to get more details.
+Please read [this article](https://github.com/yongchengchen/angular_s3_github_staticwebsite) to get more details.
