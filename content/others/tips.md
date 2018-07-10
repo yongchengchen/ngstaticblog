@@ -45,3 +45,9 @@ use it:
 ./monitor.sh /var/log/nginx/error.log ./action.sh
 ```
 
+
+#make cert for test
+https://github.com/filosottile/mkcert
+
+#local dns server for dev env
+https://github.com/7anshuai/masq
