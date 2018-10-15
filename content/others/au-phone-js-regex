@@ -1,0 +1,24 @@
+<!--
+Categories = ["Development", "Others"]
+Description = ""
+Tags = ["Development", "js regex"]
+date = "2016-11-16T10:47:31-08:00"
+menu = "main"
+title = "Australia phone number js regex"
+-->
+
+### Australia phone number js regex
+```js
+  phone_number = phone_number.replace(/\s+/g, "");
+  var ret = phone_number.match(/^\({0,1}((0|\+61)(2|4|3|7|8)){0,1}\){0,1}(\ |-){0,1}[0-9]{2}(\ |-){0,1}[0-9]{2}(\ |-){0,1}[0-9]{1}(\ |-){0,1}[0-9]{3}$/);
+  if (ret) {
+      return true;
+  }
+
+  ret = phone_number.match(/^\({0,1}(\+61){0,1}\){0,1}(1300|1800){1}(\ |-){0,1}[0-9]{3}(\ |-){0,1}[0-9]{3}$/);
+  if (ret) {
+      return true;
+  }
+
+  return phone_number.match(/^\({0,1}(\+61){0,1}\){0,1}(13){1}(\ |-){0,1}[0-9]{2}(\ |-){0,1}[0-9]{2}$/);
+```
